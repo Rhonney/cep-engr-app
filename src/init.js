@@ -1,4 +1,39 @@
-// create a JavaScript object here with the following fields: firstName, lastName, jobTitle, homeOffice
+$(document).ready(() => {
+  const $firstName = $('.First-Name-button');
+$firstName.on('click', () => {
+$firstNamenavDropdown.toggle();
+})
+  const $firstNamenavDropdown = $('#firstNamenav-dropdown');
+})
 
+$(document).ready(() => {
+  const $lastName = $('.Last-Name-button');
+$lastName.on('click', () => {
+$lastNamenavDropdown.toggle();
+})
+  const $lastNamenavDropdown = $('#lastNamenav-dropdown');
+})
 
-// using jQuery and the object above, display the information as the appropriate button is clicked
+$(document).ready(() => {
+  const $jobTitle = $('.Job-Title-button');
+$jobTitle.on('click', () => {
+$jobTitlenavDropdown.toggle();
+})
+  const $jobTitlenavDropdown = $('#jobTitlenav-dropdown');
+})
+
+$(document).ready(() => {
+  const $homeOffice = $('.Home-Office-button');
+$homeOffice.on('click', () => {
+$homeOfficenavDropdown.toggle();
+})
+  const $homeOfficenavDropdown = $('#homeOfficenav-dropdown');
+})
+
+$(document).ready(() => {
+  const $tellMeMore = $('.Tell-Me-More-button');
+$tellMeMore.on('click', () => {
+$tellMeMorenavDropdown.toggle();
+})
+  const $tellMeMorenavDropdown = $('#tellMeMorenav-dropdown');
+})

@@ -1,1 +1,44 @@
-// All of your CSS goes here
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
+}
+
+.header {
+  background: url(https://lh3.googleusercontent.com/QMI-ZpZsEIpLMPfsaK22XzuYzkJB5eod-rhXHPhFZJDcMnYK04YxfiLDv0suHqsIffVE3kzAAmHwn3O9pNaCb_FYvvojgrPsLOAqtH_NIF9kYBji11tFGQzo8_yePP21NfmXhGWenQznfVKjzINdGTSskMaqNivD3qqjHLW9w5dr8UuCRDTAPLzZTCYg3l38LOOkyLa3U16xgiIJzIZUWK5Xy7Dp3mUWOWUcOwMm35pj-9OTosCL0oerhqX482Wbs_eZGq4tS5fKE9GtHMCXySMB1WC-Gu9Xi1X-FEIlQnuVtxOtbN06buHi56EQAfmzOATKnBS0xU5UVLODzCq_SizmWoz85K__AG5c0_xD-g8eM-_dqEek1AbhFIH24w5ZKG7Y5e_oJjUwjwKLAZ-YqNlM_shQ0b7doLHJM4k3eoFSeio_ymRpLQrLbjXHcUEc_mxaR1epzVo1XvxpHu03E7AkfxS6Kry7ga_SgDI7gKfZaKurSapKDZGz3MhSwF-MC8IugChdwMLRVxzD8dfHVpyJWR0tAQvwvEORws87N07l8A3QraJvwVExyKk0NNVrTsoFEENYzIw2X_zlzjty9iGfbLxoMj7U1fuLCQFs=w1589-h1059-no) no-repeat center center;
+  background-size: contain;
+  height: 500px;
+  text-align: right;
+}
+
+.hide {
+  display: none; }
+
+@media (min-width:750px) {
+  .header h1 {
+    font-size: 45px;
+  }
+
+.nav p{
+  color: #1C2833;
+  display: flex;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+  padding: 0 30px;
+  font-size: 25px;
+  cursor: pointer;}
+  nav .container .First-Name-button,
+  nav .container .Last-Name-button,
+  nav .container .Job-Title-button,
+  nav .container .Home-Office-button,
+  nav .container .Tell-Me-More-button {
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 1em 1.25em;
+      cursor: pointer;
+      opacity: .6}
+
+.main .container {
+  margin: 80px auto;
+}
